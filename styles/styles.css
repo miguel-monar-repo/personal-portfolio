@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+header .navbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+}
+
+#Habilidades {
+    width: 25rem;
+}
