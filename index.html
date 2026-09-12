@@ -69,7 +69,7 @@
             <h2 class="text-center">Habilidades</h2>
 
             <!-- Habilidad HTML -->
-            <div class="d-flex flex-row flex-wrap">
+            <div class="d-flex flex-row flex-wrap justify-content-center">
                 <div class="card m-3" id="Habilidades">
                     <div class="card-body ">
                         <p>HTML5</p>
@@ -80,6 +80,8 @@
                         <p>100%</p>
                     </div>
                 </div>
+
+
 
 
                 <!-- Habilidad CSS -->
@@ -118,14 +120,82 @@
                     </div>
                 </div>
             </div>
+        </article>
 
-            
 
+        <article class="mt-4">
+            <h2 class="text-center">Proyectos</h2>
+
+            <div class="d-flex flex-row flex-wrap justify-content-center">
+                <div class="card m-4" id="Proyectos">
+                    <img src="img/GitHub-Symbol.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BioSync</h5>
+                        <p class="card-text">Plataforma para el monitoreo de signos vitales de tus familiares.</p>
+                        <a href="https://github.com/paulaveronica07-ctrl/BioSync/blob/main/fronted/index.html"
+                            class="btn btn-primary">Ver Repositorio</a>
+                    </div>
+                </div>
+
+                <div class="card m-4" id="Proyectos">
+                    <img src="img/geometry_dash.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Geometry Dash en Scratch</h5>
+                        <p class="card-text">Mi primer proyecto en Scratch</p>
+                        <a href="https://scratch.mit.edu/projects/1331542612" class="btn btn-primary">Ver en Scratch</a>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="mt-4">
+            <h2 class="text-center">Contáctame</h2>
+
+            <div>
+
+                <div>
+                    <span id="MensajeSubmit">
+                    </span>                              
+                </div>
+
+                <div class="m-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="Nombre" required>
+                            <div id="nombreAyuda" class="form-text">Por favor, ingrese su nombre completo </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="Email" required>
+                            <div id="emailAyuda" class="form-text">No compartiremos tus datos con terceros.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="Mensaje" rows="5"
+                                placeholder="Escribe tu mensaje aquí..."></textarea required>
+                            <div id="mensajeAyuda" class="form-text">No compartiremos tus datos con terceros.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
 
 
         </article>
-    </main>
 
+    </main>
+    <!-- FOOTER -->
+    <footer class="bg-primary text-white text-center py-4 mt-5">
+        <div class="container">
+            <p>&copy; 2026 Miguel Monar Arias. Todos los derechos reservados.</p>
+            <p>
+                <a href="#" class="text-white text-decoration-none">Política de Privacidad</a> | 
+                <a href="#" class="text-white text-decoration-none">Términos de Servicio</a>
+            </p>
+        </div>
+    </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
