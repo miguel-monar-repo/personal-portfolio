@@ -48,7 +48,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <h2>¡Hola! Soy Miguel Monar Arias</h2>
                 <p>Ingeniero en Ciencias de la Computación</p>
-                <button type="button" class="btn btn-info">Contactar</button>
+                <button type="button" class="btn btn-info" ><a href="#Contactar" >Contactar</a></button> 
+                
             </div>
         </article>
 
@@ -150,13 +151,13 @@
         </article>
 
         <article class="mt-4">
-            <h2 class="text-center">Contáctame</h2>
+            <h2 class="text-center" id="Contactar">Contáctame</h2>
 
             <div>
 
-                <div>
-                    <span id="MensajeSubmit">
-                    </span>                              
+                <div class="d-flex justify-content-center m-5">
+                    <span id="MensajeSubmit" class="bg-success text-white p-3 rounded fs-5" >
+                    </span>
                 </div>
 
                 <div class="m-4">
@@ -177,7 +178,7 @@
                                 placeholder="Escribe tu mensaje aquí..."></textarea required>
                             <div id="mensajeAyuda" class="form-text">No compartiremos tus datos con terceros.</div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -200,6 +201,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
         </script>
+
+        <script src="script.js"></script>
 
 </body>
 
